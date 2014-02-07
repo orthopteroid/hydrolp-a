@@ -1,8 +1,6 @@
 hydrolp-a
 =========
 
-Developed for fun using publicly available sources
-
 This is a linear programming optimization model of the operations and storage of a small part of the Manitoba Hydro generation system. The model was written in the zimpl modelling language and I'm publishing it here under the MIT license. This software comes with no guarantees and no claims that it is fit for any purpose.
 
 The MBH system is fed from the Nelson, Saskatchewan, Churchill, and Red Rivers (see schematic) but the largest storage is Lake Winnipeg. The plants with the largest power capacity are on the Lower Nelson River (feeding into Hudson's Bay) and are on a long DC link which can have more appreciable losses in hot seasons. There are some tricky hydraulic and operational bits around JPEG (the outlet of Lake Winnipeg) and the East Channel, and of course operations are trickier still with the appearance of surface and frazil ice. Of course, this little model doesn't consider those detailed operational issues...
