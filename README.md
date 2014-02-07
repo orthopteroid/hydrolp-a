@@ -22,5 +22,4 @@ The results are in the MBHModel.sln file as a pair of columns for variable name 
 
 I hope you have as much fun exploring this model as I've had making it. Cheers!
 
-John Howard
-1 Dec 2009
+orthopteroid
