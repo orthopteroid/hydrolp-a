@@ -18,7 +18,7 @@ Beginer's instructions that you can copy-paste into a Ubuntu terminal window:
 * zimpl -t mps MBHModel.zpl                             # convert the model into mps format
 * lp_solve -fmps -presolve MBHModel.mps > MBHModel.sln  # solve the model (takes some time)
 
-The results are in the MBHModel.sln file as a pair of columns for variable namme vs value. It might take some work reworking this output into an easier form, but that's part of a modelling system toolchain, not covered here.
+The results are in the MBHModel.sln file as a pair of columns for variable name vs value. It might take some reworking to get the output into an easier form to review, but that's part of a modelling system toolchain, not covered here.
 
 I hope you have as much fun exploring this model as I've had making it. Cheers!
 
