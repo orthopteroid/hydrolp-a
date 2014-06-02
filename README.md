@@ -12,9 +12,13 @@ This is an LP with a minimize-spill objective. It would be nice to make it a QP 
 Beginer's instructions that you can copy-paste into a Ubuntu terminal window:
 
 sudo apt-get install zimpl                            # install the zimpl modelling language
+
 sudo apt-get install lp-solve                         # install the solver
+
 zimpl -t mps MBHModel.zpl                             # convert the model into mps format
+
 lp_solve -fmps -presolve MBHModel.mps > MBHModel.sln  # solve the model (takes some time)
+
 
 The results are in the MBHModel.sln file as a pair of columns for variable namme vs value. It might take some work reworking this output into an easier form, but that's part of a modelling system toolchain, not covered here.
 
